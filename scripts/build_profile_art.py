@@ -62,7 +62,7 @@ def main():
     assets = ROOT / "assets"
     assets.mkdir(exist_ok=True)
     for theme in THEMES:
-        (assets / f"workspace-{theme}.svg").write_text(header(theme), encoding="utf-8", newline="\n")
+        (assets / f"terminal-{theme}.svg").write_text(header(theme), encoding="utf-8", newline="\n")
     for kind in ("watch", "files"):
         (assets / f"pixel-{kind}.svg").write_text(icon(kind), encoding="utf-8", newline="\n")
     print("Built two themed banners and two project icons.")
