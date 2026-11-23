@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="366" viewBox="0 0 1000 366" role="img" aria-labelledby="title desc">
+<title id="title">Koushoo — a little workspace</title>
+<desc id="desc">A macOS-inspired window with a pixel-art desk, a blinking cat, a monitor, a mug and a plant by the window. Student. Building small things, learning as I go.</desc>
+<defs><clipPath id="view"><rect x="10" y="6" width="76" height="29"/></clipPath>
+<clipPath id="scene"><rect width="96" height="62" rx="3"/></clipPath></defs>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.cloud{animation:drift 16s ease-in-out infinite alternate}
+.cursor{animation:blink 1.3s steps(1,end) infinite}
+.eye{animation:cat-blink 7s steps(1,end) infinite}
+.tail{transform-origin:58px 44px;animation:tail 7s steps(3,end) infinite}
+.steam{animation:steam 3s ease-in-out infinite}
+@keyframes drift{to{transform:translateX(7px)}}
+@keyframes blink{50%{opacity:0}}
+@keyframes cat-blink{0%,44%,49%,100%{opacity:1}45%,48%{opacity:0}}
+@keyframes tail{0%,65%,100%{transform:rotate(0deg)}75%,85%{transform:rotate(12deg)}}
+@keyframes steam{0%,100%{transform:translateY(0);opacity:.3}50%{transform:translateY(-2px);opacity:.65}}
+@media(prefers-reduced-motion:reduce){.cloud,.cursor,.eye,.tail,.steam{animation:none}}
+</style>
+<rect x="1" y="1" width="998" height="364" rx="19" fill="#f8f8fb" stroke="#dddde7"/>
+<path d="M1 51H999" stroke="#dddde7"/>
+<circle cx="29" cy="27" r="5.5" fill="#ff6058"/><circle cx="48" cy="27" r="5.5" fill="#febc2e"/><circle cx="67" cy="27" r="5.5" fill="#29c840"/>
+<text x="500" y="32" font-size="13" text-anchor="middle" fill="#737787">koushoo / a little workspace</text>
+<text x="53" y="127" font-size="13" letter-spacing="2" fill="#7274b8">HELLO THERE</text>
+<text x="50" y="188" font-size="48" font-weight="600" letter-spacing="-1.8" fill="#252734">I’m Koushoo.</text>
+<text x="53" y="228" font-size="19" fill="#737787">A student, building small things.</text>
+<rect x="53" y="263" width="28" height="3" rx="1.5" fill="#7274b8"/>
+<text x="53" y="304" font-size="13" fill="#737787">learning as I go.</text>
+<g transform="translate(558 80) scale(4)" shape-rendering="crispEdges" clip-path="url(#scene)"><rect x="0" y="0" width="96" height="62" fill="#eeedf5" /><rect x="0" y="51" width="96" height="11" fill="#d7d5e5" /><rect x="8" y="4" width="80" height="33" fill="#c9c4d5" /><rect x="10" y="6" width="76" height="29" fill="#deddf2" /><g clip-path="url(#view)"><rect x="69" y="9" width="8" height="8" fill="#e5bfaa" /><g class="cloud"><rect x="15" y="11" width="15" height="3" fill="#f8f4fa" /><rect x="18" y="9" width="8" height="2" fill="#f8f4fa" /><rect x="51" y="19" width="18" height="3" fill="#f8f4fa" /><rect x="55" y="17" width="9" height="2" fill="#f8f4fa" /></g><path d="M10 35V29H18V26H24V23H32V26H39V29H47V27H53V24H60V27H67V30H77V28H86V35Z" fill="#b5b3d8"/><path d="M10 35V32H23V30H35V32H48V31H61V33H74V31H86V35Z" fill="#8d9cb6"/></g><rect x="47" y="6" width="2" height="29" fill="#c9c4d5" /><rect x="10" y="21" width="76" height="2" fill="#c9c4d5" /><rect x="6" y="37" width="84" height="2" fill="#c9c4d5" /><rect x="5" y="48" width="87" height="3" fill="#c9c4d5" /><rect x="3" y="46" width="90" height="3" fill="#b69b8e" /><rect x="9" y="49" width="3" height="11" fill="#b69b8e" /><rect x="84" y="49" width="3" height="11" fill="#b69b8e" /><rect x="15" y="27" width="28" height="17" fill="#50586c" /><rect x="17" y="29" width="24" height="12" fill="#273748" /><rect x="27" y="44" width="4" height="2" fill="#747888" /><rect x="23" y="45" width="12" height="1" fill="#747888" /><rect x="20" y="32" width="8" height="1" fill="#abc6c0" /><rect x="20" y="35" width="14" height="1" fill="#c4b7de" /><rect x="20" y="38" width="6" height="1" fill="#e3c5ad" /><rect x="28" y="38" width="2" height="1" fill="#e3c5ad" class="cursor"/><rect x="17" y="45" width="22" height="1" fill="#a5a6b7" /><rect x="44" y="41" width="5" height="5" fill="#d8b9ab" /><rect x="49" y="42" width="2" height="3" fill="#d8b9ab" /><rect x="49" y="43" width="1" height="1" fill="#eeedf5" /><g class="steam" opacity=".5"><rect x="45" y="35" width="1" height="3" fill="#737787" /><rect x="47" y="33" width="1" height="3" fill="#737787" /></g><g class="cat"><rect x="59" y="40" width="14" height="6" fill="#bd9e91" /><rect x="57" y="41" width="2" height="4" fill="#bd9e91" /><rect x="62" y="38" width="8" height="2" fill="#bd9e91" /><rect x="68" y="37" width="7" height="8" fill="#d7b6a2" /><rect x="68" y="35" width="2" height="3" fill="#d7b6a2" /><rect x="73" y="35" width="2" height="3" fill="#d7b6a2" /><rect x="69" y="36" width="1" height="2" fill="#bd9e91" /><rect x="73" y="36" width="1" height="2" fill="#bd9e91" /><rect x="70" y="43" width="3" height="2" fill="#ead2bd" /><rect x="69" y="40" width="1" height="1" fill="#4c4350" class="eye"/><rect x="73" y="40" width="1" height="1" fill="#4c4350" class="eye"/><rect x="71" y="42" width="1" height="1" fill="#94787b" /><g class="tail"><rect x="55" y="39" width="3" height="6" fill="#bd9e91" /><rect x="53" y="37" width="4" height="3" fill="#bd9e91" /><rect x="53" y="35" width="2" height="3" fill="#bd9e91" /></g></g><rect x="80" y="40" width="8" height="6" fill="#b9abc4" /><rect x="79" y="39" width="10" height="2" fill="#c8bbd1" /><rect x="83" y="31" width="2" height="9" fill="#709987" /><rect x="79" y="33" width="4" height="3" fill="#709987" /><rect x="77" y="30" width="3" height="4" fill="#709987" /><rect x="85" y="34" width="4" height="3" fill="#709987" /><rect x="88" y="31" width="3" height="4" fill="#709987" /><rect x="83" y="28" width="2" height="3" fill="#709987" /><rect x="4" y="43" width="9" height="3" fill="#9298b6" /><rect x="5" y="40" width="7" height="3" fill="#c7afbc" /></g>
+</svg>
