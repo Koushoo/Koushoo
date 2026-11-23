@@ -1,43 +1,22 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/workspace-dark.svg" />
-  <img src="assets/workspace-light.svg" width="100%" alt="I’m Koushoo. A student, building small things. A pixel cat explores a little desk and returns as daylight turns to moonlight outside the window. The cat has other plans." />
+  <img src="assets/workspace-light.svg" width="100%" alt="Koushoo. Student. Working with Python and Linux." />
 </picture>
 
-<br />
+I’m a student. Most of what’s here is small Python tools and experiments on my Linux VPS.
 
-I’m a student. I use this space for small tools and things I’m learning.
+### Projects
 
-### On my desk
+- **Quietwatch** — checks HTTP endpoints and keeps uptime history in SQLite.
+- **File Tidy** — finds duplicate files by comparing their SHA-256 hashes. Reports matches without deleting anything.
 
-<table>
-  <tr>
-    <td width="50%">
-      <img src="assets/pixel-watch.svg" width="32" height="32" alt="" /><br /><br />
-      <strong>Quietwatch</strong><br />
-      An HTTP uptime checker for a VPS. Keeps a local history and tracks when a site goes down or comes back.<br /><br />
-      <sub>Python · SQLite · Private source</sub>
-    </td>
-    <td width="50%">
-      <img src="assets/pixel-files.svg" width="32" height="32" alt="" /><br /><br />
-      <strong>File Tidy</strong><br />
-      A duplicate-file finder that checks file contents and reports possible wasted space. Leaves the files alone.<br /><br />
-      <sub>Python · SHA-256 · Private source</sub>
-    </td>
-  </tr>
-</table>
-
-<br />
-
-<sub>Still learning. One project at a time.</sub>
+Both repositories are private for now.
 
 <details>
-<summary>Behind this profile</summary>
+<summary>About the profile</summary>
 
-A small Python job on my VPS saves a daily snapshot of my public GitHub data. The pixel artwork lives in this repo too, so it doesn't need an external image service.
+A Python job on my VPS saves a daily snapshot of my public GitHub data. The header is an SVG generated in this repository.
 
-[How it works](docs/AUTOMATION.md) · [Original stats project](https://github.com/antonisloukis/minimal-github-stats)
-
-[Art source](scripts/build_profile_art.py) · [Design notes](docs/PROFILE-ART.md)
+[Automation](docs/AUTOMATION.md) · [Artwork source](scripts/build_profile_art.py) · [Stats project used](https://github.com/antonisloukis/minimal-github-stats)
 
 </details>
-
