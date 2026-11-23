@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/workspace-dark.svg" />
-  <img src="assets/workspace-light.svg" width="100%" alt="Koushoo. Student. Working with Python and Linux." />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/workspace-dark.svg?v=terminal-1" />
+  <img src="assets/workspace-light.svg?v=terminal-1" width="100%" alt="Koushoo. Student. Working with Python and Linux." />
 </picture>
 
 I’m a student. Most of what’s here is small Python tools and experiments on my Linux VPS.
