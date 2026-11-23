@@ -1,0 +1,25 @@
+[Unit]
+Description=Record Koushoo's daily public GitHub snapshot
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=7200
+StartLimitBurst=4
+
+[Service]
+Type=oneshot
+User=profilebot
+Group=profilebot
+WorkingDirectory=/opt/koushoo-profile
+EnvironmentFile=/etc/koushoo-profile.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/usr/bin/python3 scripts/daily.py --publish
+TimeoutStartSec=600
+Restart=on-failure
+RestartSec=900
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/koushoo-profile
+UMask=0077
+

@@ -1,0 +1,11 @@
+[Unit]
+Description=Daily GitHub snapshot at 08:45 India time
+
+[Timer]
+OnCalendar=*-*-* 03:15:00 UTC
+Persistent=true
+RandomizedDelaySec=120
+Unit=koushoo-profile.service
+
+[Install]
+WantedBy=timers.target

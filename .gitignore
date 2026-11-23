@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# VPS runner state and credentials
+.daily.lock
+.env.*
+!.env.example
+work/
+reports/
+
