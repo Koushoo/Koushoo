@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/workspace-dark.svg" />
-  <img src="assets/workspace-light.svg" width="100%" alt="I’m Koushoo. A student, building small things. A pixel-art cat sits beside a computer, a mug and a plant in a quiet workspace." />
+  <img src="assets/workspace-light.svg" width="100%" alt="I’m Koushoo. A student, building small things. A pixel cat explores a little desk and returns as daylight turns to moonlight outside the window. The cat has other plans." />
 </picture>
 
 <br />
