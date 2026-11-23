@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "date_utc": "2026-11-23",
+  "username": "Koushoo",
+  "scope": "public repositories; stars and forks exclude forked repositories",
+  "public_repositories": 11,
+  "original_repositories": 10,
+  "stars": 0,
+  "forks": 0,
+  "followers": 0,
+  "repositories": [
+    {
+      "name": "beru1",
+      "url": "https://github.com/Koushoo/beru1",
+      "language": "TypeScript",
+      "stars": 0,
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "chat",
+      "url": "https://github.com/Koushoo/chat",
+      "language": null,
+      "stars": 0,
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "fuku",
+      "url": "https://github.com/Koushoo/fuku",
+      "language": "HTML",
+      "stars": 0,
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "Koushoo",
+      "url": "https://github.com/Koushoo/Koushoo",
+      "language": null,
+      "stars": 0,
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "liteimagepro",
+      "url": "https://github.com/Koushoo/liteimagepro",
+      "language": "HTML",
+      "stars": 0,
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "Lobo",
+      "url": "https://github.com/Koushoo/Lobo",
+      "language": "HTML",
+      "stars": 0,
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "oci-arm-host-capacity",
+      "url": "https://github.com/Koushoo/oci-arm-host-capacity",
+      "language": null,
+      "stars": 0,
+      "fork": true,
+      "archived": false
+    },
+    {
+      "name": "plastic",
+      "url": "https://github.com/Koushoo/plastic",
+      "language": null,
+      "stars": 0,
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "song1",
+      "url": "https://github.com/Koushoo/song1",
+      "language": "HTML",
+      "stars": 0,
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "Test",
+      "url": "https://github.com/Koushoo/Test",
+      "language": "CSS",
+      "stars": 0,
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "Time",
+      "url": "https://github.com/Koushoo/Time",
+      "language": "HTML",
+      "stars": 0,
+      "fork": false,
+      "archived": false
+    }
+  ]
+}
