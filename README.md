@@ -1,8 +1,6 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/astronaut-dark-still.png" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/astronaut-light-still.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/astronaut-dark.gif" />
-  <img src="assets/astronaut-light.gif" width="100%" alt="I’m Koushoo. A student, building small things. An astronaut floats above Earth beside a calendar, notebook and envelope." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/space-orbit-v1-still.png" />
+  <img src="assets/space-orbit-v1.gif" width="100%" alt="I’m Koushoo. A student, building small things. An astronaut floats above Earth with a calendar, notebook and envelope, surrounded by stars, planets and a satellite." />
 </picture>
 
 I’m a student. Most of what’s here is small Python tools and experiments on my Linux VPS.
