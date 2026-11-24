@@ -1,6 +1,7 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/space-orbit-v1-still.png" />
-  <img src="assets/space-orbit-v1.gif" width="100%" alt="I’m Koushoo. A student, building small things. An astronaut floats above Earth with a calendar, notebook and envelope, surrounded by stars, planets and a satellite." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/space-orbit-v2-still.png" />
+  <source type="image/webp" srcset="assets/space-orbit-v2.webp" />
+  <img src="assets/space-orbit-v2.gif" width="100%" alt="I’m Koushoo. A student, building small things. An astronaut floats above Earth with a calendar, notebook and envelope, surrounded by stars, planets and a satellite." />
 </picture>
 
 I’m a student. Most of what’s here is small Python tools and experiments on my Linux VPS.
