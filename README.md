@@ -4,14 +4,16 @@
   <img src="assets/space-orbit-v3.gif" width="100%" alt="I’m Koushoo. A student, building small things. An astronaut floats above Earth with a calendar, notebook and envelope, surrounded by stars, planets and a satellite." />
 </picture>
 
-I’m a student. Most of what’s here is small Python tools and experiments on my Linux VPS.
+I’m a student. I’m working on small Python and TypeScript tools, with a few experiments on my Linux VPS.
 
 ### Projects
 
+- **Margin** — searches Markdown study notes offline, with BM25 ranking and matching snippets.
+- **Duegrid** — turns assignment estimates into a daily study plan and flags work that won’t fit before a deadline.
 - **Quietwatch** — checks HTTP endpoints and keeps uptime history in SQLite.
 - **File Tidy** — finds duplicate files by comparing their SHA-256 hashes. Reports matches without deleting anything.
 
-Both repositories are private for now.
+The project repositories are private for now.
 
 <details>
 <summary>About the profile</summary>
