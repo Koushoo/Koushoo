@@ -18,6 +18,6 @@ Both repositories are private for now.
 
 A Python job on my VPS saves a daily snapshot of my public GitHub data. The header uses a rendered loop from my local Friday website project. The astronaut scene comes from [Lusion](https://lusion.co/); the floating everyday objects are from the Friday adaptation.
 
-[Automation](docs/AUTOMATION.md) · [Artwork source](scripts/build_astronaut_banner.py) · [Stats project used](https://github.com/antonisloukis/minimal-github-stats)
+[Automation](docs/AUTOMATION.md) · [Artwork notes](docs/PROFILE-ART.md) · [Stats project used](https://github.com/antonisloukis/minimal-github-stats)
 
 </details>

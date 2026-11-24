@@ -2,7 +2,7 @@
   "profile": "https://github.com/Koushoo",
   "version": 3,
   "images": {
-    "webp": {
+    "space-orbit-v3.webp": {
       "file": "space-orbit-v3.webp",
       "bytes": 3946640,
       "sha256": "1404542efc1c78c3e37d43e12235325dc998315c7b3b2929b58f5c8063c1b604",
@@ -11,7 +11,7 @@
       "decoded_endpoints_identical": true,
       "text_pixel_stable": true
     },
-    "gif": {
+    "space-orbit-v3.gif": {
       "file": "space-orbit-v3.gif",
       "bytes": 7038781,
       "sha256": "58e79df2d6d88fbda425e71939be29b40b175745dde40002bdc936e0e2d411e7",
@@ -20,10 +20,14 @@
       "decoded_endpoints_identical": true,
       "text_pixel_stable": true
     },
-    "still": {
+    "space-orbit-v3-still.png": {
       "file": "space-orbit-v3-still.png",
       "bytes": 200470,
-      "sha256": "005d0c2cd8221394cc925a3e95a6b7db139816f5d5b3e4b8f9866f44e2fc1d21"
+      "sha256": "005d0c2cd8221394cc925a3e95a6b7db139816f5d5b3e4b8f9866f44e2fc1d21",
+      "frames": 1,
+      "duration_ms": 0,
+      "decoded_endpoints_identical": false,
+      "text_pixel_stable": true
     }
   },
   "attribution": {
@@ -31,6 +35,6 @@
     "underlying_astronaut_and_scene": "Lusion, adapted by the local Friday project",
     "source_credits": "docs/PROFILE-ART.md"
   },
-  "copying_notice": "Public media can be copied. Visible branding and hashes are attribution and provenance measures, not DRM. Existing licenses and third-party rights remain unchanged.",
-  "masters": "Source captures and intermediate frames are local and are not distributed in this repository."
+  "copying_notice": "Visible branding identifies this adaptation; it is not DRM. Existing licenses and third-party rights remain unchanged.",
+  "masters": "The generator and original captures are not distributed here."
 }
