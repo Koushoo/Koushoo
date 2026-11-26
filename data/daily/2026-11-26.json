@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "date_utc": "2026-11-26",
+  "username": "Koushoo",
+  "scope": "public repositories; stars and forks exclude forked repositories",
+  "public_repositories": 1,
+  "original_repositories": 1,
+  "stars": 0,
+  "forks": 0,
+  "followers": 0,
+  "repositories": [
+    {
+      "name": "Koushoo",
+      "url": "https://github.com/Koushoo/Koushoo",
+      "language": "Python",
+      "stars": 0,
+      "fork": false,
+      "archived": false
+    }
+  ]
+}
